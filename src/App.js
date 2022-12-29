@@ -2,6 +2,7 @@
 import './App.css';
 import NavBar from './Components/NavBar';
 import ItemListContainer from './Components/ItemListContainer';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <header className="App-header">
 
           <NavBar/>
-          <ItemListContainer greeting= {'Bienvenid@ al e-commerce'} />
+          <ItemListContainer greeting = "Bienvenid@ al e-Commerce"/>
       </header>
     </div>
   );
